@@ -17,13 +17,15 @@ $ docker-compose ps
 dcc-why_app_1   nginx -g daemon off;   Up      80/tcp
 ```
 
-docker-composeでDockerfile指定しているのにnginxが立ち上がってくる
+docker-compose.yamlでDockerfile指定しているのにnginxが立ち上がってくる
+
+期待している動きはbusybox内でsleepが実行されること
 
 ## アーキテクチャの話
 
 docker-composeはdockerをラッピングしているだけなのでimege名しか見ていない
 
-docker-composeは状態を持っているわけではないのでdockerfileの内容は知らない
+docker-composeは状態を持っているわけではないのでDockerfileの内容は知らない
 
 わかるのはimageが存在するかどうかだけ
 
