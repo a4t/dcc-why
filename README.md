@@ -23,7 +23,7 @@ docker-compose.yamlでDockerfile指定しているのにnginxが立ち上がっ�
 
 ## アーキテクチャの話
 
-docker-composeはdockerをラッピングしているだけなのでimege名しか見ていない
+docker-composeはdockerをラッピングしているだけなのでimage名しか見ていない
 
 docker-composeは状態を持っているわけではないのでDockerfileの内容は知らない
 
