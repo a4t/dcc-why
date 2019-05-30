@@ -9,7 +9,7 @@ docker-composeが思わぬ挙動をしたのでとりあえずpushしておい�
 $ git pull https://github.com/a4t/dcc-why.git
 $ cd dcc-why
 $ docker pull nginx
-$ docker tag nginx dcc-why_app
+$ docker tag nginx dcc-why_app # ここがポイント
 $ docker-compose up -d app
 $ docker-compose ps
     Name              Command          State   Ports
